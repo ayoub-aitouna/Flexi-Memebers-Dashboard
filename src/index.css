@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    font-family: "Vazirmatn", sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar {
+    background-color: none;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 7%, 0.7);
+    border: 3px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+}
